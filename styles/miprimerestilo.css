@@ -1,0 +1,41 @@
+* Consultas de medios CSS - Ejemplos
+Consultas de medios CSS: más ejemplos
+Veamos algunos ejemplos más del uso de consultas de medios.
+ */
+/* Set the background color of body to tan */
+body {
+  background-color: tan;
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: rgb(198, 233, 255);
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(98, 195, 247);
+  }
+}
+h1{
+  background-color: aqua;
+}
+
+@media screen and (max-width: 599px) {
+  body{
+     background: #ee66be; 
+  }
+}
+  
+@media screen and (min-width: 600px) {
+  body{
+        background: #5d5bf0; 
+  }
+}
+
+ 
